@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(../../../public/img/pizza.jpg);
+    height: 19em;
+    background-position: center;
+
+}

@@ -1,0 +1,55 @@
+.cart {
+    width: 60%;
+    background-color: rgba(240, 248, 255, 0.396);
+    padding: 2rem;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.cart-img {
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.eliminar-icon {
+    font-size: 1.5;
+}
+
+.detalles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.contadores {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.incrementar:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: #75b615;
+}
+
+.decrementar:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: #75b615;
+}
+
+.btn-custom {
+    margin-right: 0.2em;
+}

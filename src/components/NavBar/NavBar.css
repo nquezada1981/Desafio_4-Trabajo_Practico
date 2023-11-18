@@ -1,0 +1,20 @@
+.navbar {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.logo-link,
+.cart-link {
+    text-decoration: none;
+    color: white;
+}
+
+.brand-logo {
+    margin-right: 19em;
+}
